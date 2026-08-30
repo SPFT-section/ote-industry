@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่ซิรโคน
+description: แร่ซิรคอน ใช้ในอิเล็กทรอนิกส์
+itemDrop: zircon
+variants: 2

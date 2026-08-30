@@ -1,0 +1,34 @@
+type: UnitType
+name: บรอว์เลอร์เหล็กกล้า L2
+description: บรอว์เลอร์เหล็กกล้าเรวิว สถิติเพิ่มขึ้นอย่างมีนัยสำคัญ
+type: mech
+flying: false
+health: 500
+armor: 7
+speed: 1.1
+hitSize: 11
+rotateSpeed: 3
+weapons: [
+    {
+        x: 0
+        y: 1
+        shootY: 5
+        reload: 22
+        rotate: true
+        mirror: false
+        shootSound: thump
+        bullet: {
+            damage: 28
+            speed: 4.5
+            width: 9
+            height: 14
+            lifetime: 45
+            frontColor: "8f9aa6"
+            backColor: "5a4a2a"
+        }
+    }
+]
+research: {
+    parent: steel-brawler
+    requirements: [ steel/120, bronze/80 ]
+}

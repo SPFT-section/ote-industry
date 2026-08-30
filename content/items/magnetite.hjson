@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่มากนีต
+description: แมกเนไทต์ แม่เหล็กธรรมชาติ
+itemDrop: magnetite
+variants: 2

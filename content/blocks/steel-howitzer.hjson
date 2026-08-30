@@ -1,0 +1,33 @@
+type: ItemTurret
+name: ปืนใหญ่เหล็กกล้า
+description: ปืนใหญ่ครกระเบิด ใช้กระสุนเหล็ก ยิงโค้งไม่สามารถตีอากาศได้
+size: 2
+health: 400
+reload: 24
+range: 200
+inaccuracy: 3
+rotateSpeed: 4
+recoil: 2
+maxAmmo: 20
+targetAir: false
+ammoTypes: {
+    steel: {
+        damage: 25
+        speed: 4.5
+        width: 8
+        height: 14
+        lifetime: 50
+        frontColor: "8f9aa6"
+        backColor: "5a4a2a"
+    }
+}
+shootEffect: shootLarge
+smokeEffect: shootLargeSmoke
+ammoUseEffect: crash
+
+requirements: [ steel/60, bronze/30 ]
+category: turret
+research: {
+    parent: steel-wall
+    requirements: [ steel/150, bronze/80 ]
+}

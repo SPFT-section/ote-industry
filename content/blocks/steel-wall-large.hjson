@@ -1,0 +1,11 @@
+type: Wall
+name: กำแพงเหล็กขนาดใหญ่
+description: กำแพงขนาด 2x2 ให้พื้นที่ครอบคลุมมากกว่า
+size: 2
+health: 1200
+requirements: [ steel/100 ]
+category: defense
+research: {
+    parent: steel-wall
+    requirements: [ steel/200 ]
+}

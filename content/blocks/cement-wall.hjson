@@ -1,0 +1,11 @@
+type: Wall
+name: กำแพงคอนกรีต
+description: กำแพงพื้นฐานเริ่มเกม ทนทานกว่าจะพัง
+size: 1
+health: 360
+requirements: [ cement/10 ]
+category: defense
+research: {
+    root: true
+    requirements: [ cement/50 ]
+}

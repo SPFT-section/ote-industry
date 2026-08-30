@@ -1,0 +1,11 @@
+type: Wall
+name: กำแพงบรอนซ์
+description: กำแพงโลหะผสมบรอนซ์ แข็งแรงกว่าคอนกรีต
+size: 1
+health: 500
+requirements: [ bronze/50 ]
+category: defense
+research: {
+    parent: alloy-furnace
+    requirements: [ bronze/100 ]
+}

@@ -1,0 +1,11 @@
+type: Smelter
+name: เตาผสมบรอนซ์
+description: ผสมทองแดงและซินก้มผลิตบรอนซ์ ใช้ในอุปกรณ์กลไกและปืน
+size: 2
+health: 250
+requirements: [ copper/200, sphalerite/100 ]
+category: production
+research: {
+    parent: blast-furnace
+    requirements: [ copper/200, sphalerite/150 ]
+}

@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่ชาล์คไพไรต์
+description: แร่ทองแดงฝั่งดิน
+itemDrop: chalcopyrite
+variants: 2

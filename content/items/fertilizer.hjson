@@ -1,0 +1,4 @@
+type: Sack
+name: ปุ๋ย
+description: ปุ๋ยอินทรีย์จากระบบจัดการของเสีย
+itemDrop: fertilizer

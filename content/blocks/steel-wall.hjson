@@ -1,0 +1,11 @@
+type: Wall
+name: กำแพงเหล็ก
+description: กำแพงเหล็กกล้าแข็ง แข็งแรงที่สุดในระดับกลาง
+size: 1
+health: 640
+requirements: [ steel/30 ]
+category: defense
+research: {
+    parent: blast-furnace
+    requirements: [ steel/100 ]
+}

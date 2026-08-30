@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่มาลาไชต์
+description: แร่คูเปอร์สีเขียวเข้ม
+itemDrop: malachite
+variants: 2

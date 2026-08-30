@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่แคสซิไทร์ท
+description: แร่ตะกั่วฝั่งดิน
+itemDrop: cassiterite
+variants: 2

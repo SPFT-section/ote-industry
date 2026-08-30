@@ -1,0 +1,5 @@
+type: OreBlock
+name: แรーグราไฟต์
+description: แร่คาร์บอน ฝั่งดินใช้ในแบตเตอรี่
+itemDrop: graphite
+variants: 2

@@ -1,0 +1,5 @@
+type: OreBlock
+name: แรเบอร์ล
+description: แร่อะลูมิเนียมเบรีล ฝั่งดินห दु rare
+itemDrop: beryl
+variants: 2

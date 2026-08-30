@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่แกเลนา
+description: แร่สังกะสีฝั่งดิน
+itemDrop: galena
+variants: 2

@@ -1,0 +1,52 @@
+type: UnitType
+name: วอสป์อะลูมิเนียม L2
+description: วอสป์อะลูมิเนียมระดับ 2 ความเร็วเพิ่มและระบบป้องกันที่ดีขึ้น
+type: mech
+flying: true
+health: 280
+armor: 3
+speed: 1.8
+hitSize: 8
+rotateSpeed: 5
+weapons: [
+    {
+        x: -4
+        y: -2
+        shootY: 5
+        reload: 25
+        rotate: true
+        mirror: false
+        shootSound: laser
+        bullet: {
+            damage: 12
+            speed: 5
+            width: 5
+            height: 8
+            lifetime: 35
+            frontColor: "ccd4dc"
+            backColor: "8b9dc3"
+        }
+    }
+    {
+        x: 4
+        y: -2
+        shootY: 5
+        reload: 25
+        rotate: true
+        mirror: true
+        shootSound: laser
+        bullet: {
+            damage: 12
+            speed: 5
+            width: 5
+            height: 8
+            lifetime: 35
+            frontColor: "ccd4dc"
+            backColor: "8b9dc3"
+        }
+    }
+]
+research: {
+    parent: aluminum-wasp
+    requirements: [ aluminum/100 ]
+}

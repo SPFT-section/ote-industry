@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่คินนาแบร์
+description: แร่ไซค์ (ซัลเฟอร์) ใช้ในเคมีอุตสาหกรรม
+itemDrop: cinnabar
+variants: 2

@@ -1,0 +1,8 @@
+name: Oten-Industry
+displayName: Oten Industry
+author: Oten Community
+description: Mod Mindustry ที่เพิ่มแร่ธาตุใหม่ เครื่องจักร หุ่นรบ กำแพง และโครงสร้างพื้นฐาน รองรับการเลเวลและระบบวิจัย / Mindustry mod adding new ores, machines, units, walls and basic structures with level and research system
+version: 1.0.0
+minGameVersion: 146
+hidden: false
+dependencies: []

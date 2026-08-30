@@ -1,0 +1,11 @@
+type: Smelter
+name: เตาถลุงทองแดง
+description: ถลุงทองแดงจากแร่ชาล์คไพไรต์ ใช้สำหรับผลิตทองแดงบริสุทธิ์
+size: 2
+health: 200
+requirements: [ copper/250 ]
+category: production
+research: {
+    parent: rotary-drill
+    requirements: [ copper/150 ]
+}

@@ -1,0 +1,34 @@
+type: UnitType
+name: บรอว์เลอร์เหล็กกล้า L3
+description: บรอว์เลอร์ระดับขั้นสูง แข็งแรงที่สุด สามารถบรรทุกอาวุธหนักได้
+type: mech
+flying: false
+health: 700
+armor: 9
+speed: 1.3
+hitSize: 12
+rotateSpeed: 4
+weapons: [
+    {
+        x: 0
+        y: 1
+        shootY: 5
+        reload: 18
+        rotate: true
+        mirror: false
+        shootSound: explosion
+        bullet: {
+            damage: 40
+            speed: 6
+            width: 10
+            height: 16
+            lifetime: 50
+            frontColor: "8f9aa6"
+            backColor: "5a4a2a"
+        }
+    }
+]
+research: {
+    parent: steel-brawler-l2
+    requirements: [ steel/200, bronze/120 ]
+}

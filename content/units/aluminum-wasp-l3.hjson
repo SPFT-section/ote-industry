@@ -1,0 +1,52 @@
+type: UnitType
+name: วอสป์อะลูมิเนียม L3
+description: วอสป์อะลูมิเนียมระดับสูง ความคล่องตัวสูงสุด ปืนหนัก
+type: mech
+flying: true
+health: 400
+armor: 5
+speed: 2.2
+hitSize: 9
+rotateSpeed: 6
+weapons: [
+    {
+        x: -5
+        y: -2
+        shootY: 6
+        reload: 20
+        rotate: true
+        mirror: false
+        shootSound: rocket
+        bullet: {
+            damage: 25
+            speed: 7
+            width: 6
+            height: 10
+            lifetime: 40
+            frontColor: "ccd4dc"
+            backColor: "8b9dc3"
+        }
+    }
+    {
+        x: 5
+        y: -2
+        shootY: 6
+        reload: 20
+        rotate: true
+        mirror: true
+        shootSound: rocket
+        bullet: {
+            damage: 25
+            speed: 7
+            width: 6
+            height: 10
+            lifetime: 40
+            frontColor: "ccd4dc"
+            backColor: "8b9dc3"
+        }
+    }
+]
+research: {
+    parent: aluminum-wasp-l2
+    requirements: [ aluminum/180, steel/80 ]
+}

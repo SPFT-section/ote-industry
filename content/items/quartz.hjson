@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่ควอตซ์
+description: แร่ซิลิกา ฝั่งดินพบบ่อย
+itemDrop: quartz
+variants: 2

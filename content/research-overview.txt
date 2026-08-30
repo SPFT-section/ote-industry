@@ -1,0 +1,92 @@
+# Oten Industry - Research Tree Overview
+
+## ยุคที่ 1: โลหะเริ่มต้น (Metal Age)
+- **root: true** - เริ่มเกมอัตโนมัติ
+  - ความต้องการ: copper/100
+
+- **เครื่องเจาะโรตารี** (rotary-drill)
+  - parent: เริ่มต้น
+  - ความต้องการ: copper/100
+
+- **เตาถลุงทองแดง** (copper-smelter)
+  - parent: rotary-drill
+  - ความต้องการ: copper/150
+
+- **เตาถลุงเหล็ก** (blast-furnace)
+  - parent: copper-smelter
+  - ความต้องการ: hematite/300, coal/100
+
+- **เตาผสมบรอนซ์** (alloy-furnace)
+  - parent: blast-furnace
+  - ความต้องการ: copper/200, sphalerite/150
+
+- **กำแพงบรอนซ์** (bronze-wall)
+  - parent: alloy-furnace
+  - ความต้องการ: bronze/100
+
+- **ปืนกลบรอนซ์** (bronze-gun)
+  - parent: alloy-furnace
+  - ความต้องการ: bronze/40, copper/30
+
+- **ครอว์เลอร์บรอนซ์ L1** (bronze-crawler)
+  - parent: unit-factory
+  - ความต้องการ: bronze/50
+
+- **หน่วย neutralizer** (neutralizer)
+  - parent: chemical-processor
+  - ความต้องการ: steel/50, limestone/30
+
+- **ยุคที่ 2: ไฟฟ้าและเคมี** (Electric & Chemical Age)
+  - เตาผสมเหล็กหล่อเพิ่ม (ไม่มีในโมดูนี้แต่เชื่อมโยง)
+  
+- **เตาอิเล็กโทรไลซิส** (electrolysis-plant)
+  - parent: alloy-furnace
+  - ความต้องการ: aluminum/80 (เริ่มต้นอลูมิเนียม)
+
+- **กำแพงอะลูมิเนียม** (aluminum-wall)
+  - parent: electrolysis-plant
+  - ความต้องการ: aluminum/100
+
+- **ปืนฟลัคอะลูมิเนียม** (aluminum-flak)
+  - parent: electrolysis-plant
+  - ความต้องการ: aluminum/80, copper/50
+
+- **วอสป์อะลูมิเนียม L1** (aluminum-wasp)
+  - parent: unit-factory
+  - ความต้องการ: aluminum/60
+
+- **หน่วย filter-press** (filter-press)
+  - parent: chemical-processor
+  - ความต้องการ: steel/80
+
+- **ยุคที่ 3: อะตอมและขั้นสูง** (Atomic & Advanced Age)
+  
+- **หน่วยนิวเคลียร์** (nuclear-reactor)
+  - parent: electrolysis-plant
+  - ความต้องการ: enriched-uranium (เริ่มต้นเทคโนโลยีนิวเคลียร์)
+
+- **ปืนเรลแกนยูเรเนียม** (uranium-lance)
+  - parent: nuclear-reactor
+  - ความต้องการ: enriched-uranium/100, steel/150
+
+- **บรอว์เลอร์เหล็กกล้า L2** (steel-brawler)
+  - parent: steel-brawler
+  - ความต้องการ: steel/120, bronze/80
+
+- **ครอว์เลอร์บรอนซ์ L3** (bronze-crawler)
+  - parent: bronze-crawler-l2
+  - ความต้องการ: bronze/120, steel/50
+
+- **วอสป์อะลูมิเนียม L3** (aluminum-wasp)
+  - parent: aluminum-wasp-l2
+  - ความต้องการ: aluminum/180, steel/80
+
+- **กำแพงเหล็กขนาดใหญ่** (steel-wall-large)
+  - parent: steel-wall
+  - ความต้องการ: steel/200
+
+- **ปืนใหญ่เหล็กกล้า** (steel-howitzer)
+  - parent: steel-wall
+  - ความต้องการ: steel/150, bronze/80
+
+โครงสร้างวิจัยรวม 3 ยุคตั้งแต่โลหะเบasic จนถึงอะตอมและเทคโนโลยีขั้นสูง โดยแต่ละเทคโนโลยีเปิดใช้เครื่องจักร หุ่นรบ และอาวุธที่ซับซ้อนขึ้นไป

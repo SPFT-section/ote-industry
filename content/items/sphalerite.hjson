@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่สฟาเลไรต์
+description: แร่ซินก้ม (แรezinc)
+itemDrop: sphalerite
+variants: 2

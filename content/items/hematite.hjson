@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่เฮมไทต์
+description: แร่เหล็กฝั่งดิน
+itemDrop: hematite
+variants: 2

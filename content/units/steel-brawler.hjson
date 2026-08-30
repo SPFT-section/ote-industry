@@ -1,0 +1,34 @@
+type: UnitType
+name: บรอว์เลอร์เหล็กกล้า L1
+description: หุ่นรบพื้นหนักสำรองหน้าประเภททนทาน เกราะ thick
+type: mech
+flying: false
+health: 350
+armor: 5
+speed: 0.9
+hitSize: 10
+rotateSpeed: 2
+weapons: [
+    {
+        x: 0
+        y: 1
+        shootY: 5
+        reload: 28
+        rotate: true
+        mirror: false
+        shootSound: thump
+        bullet: {
+            damage: 18
+            speed: 3.5
+            width: 8
+            height: 12
+            lifetime: 40
+            frontColor: "8f9aa6"
+            backColor: "5a4a2a"
+        }
+    }
+]
+research: {
+    parent: unit-factory
+    requirements: [ steel/80, bronze/40 ]
+}

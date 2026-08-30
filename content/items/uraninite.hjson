@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่อูไรนินิต
+description: แรeyu reniumฝั่งดิน
+itemDrop: uraninite
+variants: 2

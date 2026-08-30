@@ -1,0 +1,5 @@
+type: OreBlock
+name: แร่ปูนบด
+description: แร่คาร์บอนเนต แปรรูปเป็นปูนสำหรับเครื่องจักร
+itemDrop: limestone
+variants: 2

@@ -1,0 +1,12 @@
+type: Consumer
+name: เครื่อง filter-press
+description: ประมวลกากตะกอนให้กลายเป็นปุ๋ย ใช้กับท่อส่งของเหลว
+size: 2
+health: 200
+requirements: [ steel/50 ]
+category: production
+consumes: { power: 0.0083333 }
+research: {
+    parent: chemical-processor
+    requirements: [ steel/80 ]
+}

@@ -1,0 +1,34 @@
+type: ItemTurret
+name: ปืนเรลแกนยูเรเนียม
+description: ปืนเรลทะลุเป้า 3 ตัวพร้อมกัน กระสุนยูเรเนียมเพิ่มพิเศษ
+size: 2
+health: 500
+reload: 30
+range: 300
+inaccuracy: 1.5
+rotateSpeed: 5
+recoil: 3
+maxAmmo: 15
+targetAir: true
+targetGround: true
+ammoTypes: {
+    enriched-uranium: {
+        damage: 50
+        speed: 8
+        width: 10
+        height: 18
+        lifetime: 60
+        frontColor: "45e07a"
+        backColor: "2a7a5a"
+    }
+}
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+ammoUseEffect:asing1
+
+requirements: [ enriched-uranium/80, steel/60 ]
+category: turret
+research: {
+    parent: nuclear-reactor
+    requirements: [ enriched-uranium/100, steel/150 ]
+}

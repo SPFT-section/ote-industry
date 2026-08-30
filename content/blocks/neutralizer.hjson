@@ -1,0 +1,12 @@
+type: Consumer
+name: เครื่อง neutralizer
+description: ปรับสภาพกรดใช้แล้วให้กลายเป็นน้ำและปุ๋ย ใช้ limestone เป็นตัวช่วย
+size: 2
+health: 200
+requirements: [ limestone/50 ]
+category: production
+consumes: { power: 0.01 }
+research: {
+    parent: chemical-processor
+    requirements: [ steel/50, limestone/30 ]
+}

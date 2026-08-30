@@ -1,0 +1,11 @@
+type: Smelter
+name: เตาถลุงเหล็ก
+description: ถลุงเหล็กจากแร่เฮมไทต์และถ่านหิน ใช้ผลิตเหล็ก
+size: 3
+health: 3600
+requirements: [ hematite/500, coal/200 ]
+category: production
+research: {
+    parent: copper-smelter
+    requirements: [ hematite/300, coal/100 ]
+}
